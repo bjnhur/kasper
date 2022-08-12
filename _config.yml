@@ -1,15 +1,21 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: 키블럭
+description: Blogging about technical stuffs
+meta_description: "Blogging about stuffs, python, code, IT."
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /kasper
-domain_name: "http://yourblog-domain.com"
+domain_name: 
 google_analytics: "UA-XXXXXXXX-X"
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed  
 
 # Details for the RSS feed generator
 url: ""
