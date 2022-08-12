@@ -4,6 +4,10 @@ This is a port of Ghost's default theme [Casper v1](https://github.com/tryghost/
 
 Feel free to fork, change, modify and re-use it.
 
+## 사용법
+- _sass 폴더 밑에 global.scss 에 자기 css 정의하면 자동으로 css로 변환되어 사용된다.
+- assets/main.scss 에 보면 _sass 를 가리키도록 되어 있다.
+
 ## Installation
 
     git clone https://github.com/rosario/kasper.git

@@ -2,29 +2,5 @@
 # Let's add a comment to make this file sass-y.
 # Change this file for any custom CSS.
 ---
-
-/* We need to add display:inline in order to align the '>>' of the 'read more' link */
-.post-excerpt p {
-	display:inline;
-}
-
-body {
-	font-size: 1.2em;
-	color: $gray-900;
-	font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;	
-	font-weight: 100;
-}
-
-a {
-	color: dodgerblue;
-	@include transition-all;
-	&:focus,
-	&:hover {
-	  color: #ffffff;
-	  background-color: deepskyblue;
-	}
-}
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax"
-;
+@import "styles";
