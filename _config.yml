@@ -1,4 +1,4 @@
-name: 키블럭
+title: 기술노트
 description: Blogging about technical stuffs
 meta_description: "Blogging about stuffs, python, code, IT."
 
@@ -6,8 +6,9 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: /kasper
-domain_name: 
+url: https://it.kblck.com
+baseurl: /
+domain_name: https://it.kblck.com
 google_analytics: "UA-XXXXXXXX-X"
 plugins: 
   - jekyll-coffeescript
@@ -19,7 +20,7 @@ plugins:
 
 # Details for the RSS feed generator
 url: ""
-author: "Your Name"
+author: "Benny"
 
 # Disqus config
 disqus-shortname: ""

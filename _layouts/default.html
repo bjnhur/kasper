@@ -35,5 +35,19 @@
     <script type="text/javascript" src="{{'/assets/js/jquery-1.11.1.min.js' | relative_url}}"></script>
     <script type="text/javascript" src="{{'/assets/js/jquery.fitvids.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{'/assets/js/index.js' | relative_url }}"></script>
+    <script type="text/javascript">
+      // from https://github.com/gernotstarke/minimal-mistakes/blob/master/assets/js/mod_outer_links.js
+      $(function () {
+        // add `target="_blank"` to outgoing links.
+        var host = document.location.host;
+        $("a[href]").each(function() {
+            var re = new RegExp(host, "g");
+            if ($(this).attr("href").match(/\/\//) && !$(this).attr("href").match(re)) {
+              $(this).attr("target", "_blank");
+              $(this).attr("rel", "noopener noreferrer");
+            }
+        });
+      });
+    </script>
 </body>
 </html>
