@@ -205,13 +205,13 @@ h4, h5, h6 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     letter-spacing: -2px;
     text-indent: -3px;
 }
 
 h2 {
-    font-size: 3.6rem;
+    font-size: 3rem;
     letter-spacing: -1px;
 }
 
@@ -232,19 +232,20 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: dodgerblue;
     transition: color ease 0.3s;
 }
 
-a:hover {
-    color: #111;
+a:focus, a:hover {
+  color: #ffffff;
+  background-color: deepskyblue;
 }
 
 p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    margin: 0 0 1.75em 0;
+    margin: 0 0 1em 0;
 }
 
 ol, ul {
