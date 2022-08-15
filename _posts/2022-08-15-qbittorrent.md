@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /490
+permalink: /torrentdownload
 title: 인기 토렌트 사이트 다운로드 방법 소개 2022-08-01
 excerpt: 토렌트 사이트를 최신 접속이 되는 곳으로 몇개 추천하고, 실제 토렌트 다운로드 방법을 공유하는 페이지 입니다.
 categories: torrent
