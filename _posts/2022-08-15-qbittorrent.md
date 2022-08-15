@@ -12,7 +12,7 @@ last_modified_at: 2022-08-14 00:00:00 +0900
 
 > 현재 글 이동 중입니다. 이미지 이런 내용도 계속 업데이트 할 예정입니다.
 
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% include tsaddiv.html %}
 
 ## 1\. 인기 토렌트 사이트 추천 순위 TOP 7
 
@@ -26,7 +26,7 @@ last_modified_at: 2022-08-14 00:00:00 +0900
 | 토렌트썸 | [torrentsome48.com](https://torrentsome48.com) | [토렌트조아.com](https://movies1325.blogspot.com/2022/01/blog-post.html) | 토렌트조아 패밀리, 온라인 영화로 실시간 스트리밍 서비스 제공하지만 이미지 썸네일로 리스트 제공, 마그넷 링크 토렌트 다운로드 모두 지원 |
 | 주주토렌트 | [torrentjuju8.com](https://torrentjuju8.com/) | [주주토렌트.com](https://xn--sm2bt32aa269fblb.com/) | 큼직한 이미지 영화 포스터가 나열되어 있어 편리한 검색, 마그넷 링크와 토렌트 다운로드 모두 지원 |
 
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% include tsaddiv.html %}
 
 ## 2\. 토렌트 다운로드 프로그램 설치
 
@@ -38,7 +38,7 @@ last_modified_at: 2022-08-14 00:00:00 +0900
 
 **📚** [큐빗토렌트 qBittorrent 설치와 사용법 - 필수 토렌트 다운로드 프로그램](https://wiznxt.tistory.com/778)
 
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% include tsaddiv.html %}
 
 단, 설치후에 설정하는 것이 몇가지 있다. 꼭 해주자.
 
@@ -46,15 +46,17 @@ last_modified_at: 2022-08-14 00:00:00 +0900
 
 무작위로 포트를 선택하도록 하고 아래에 있는 **UPnp/ NAT-PMP 포트 전환 사용을 체크해주자**.
 
+![image](https://user-images.githubusercontent.com/6334864/184565849-f99bd4e4-bff5-4c83-88fc-a4c6835202a6.png)
+
 그리고, 
 
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% include tsaddiv.html %}
 
 **설정 > 비트토렌트 > 개인 정보 부분에서 아래와 같이 익명 모드 사용 체크**를 하고, 암호화 모드는 암호화 허용 옵션을 꼭 선택하도록 한다.
 
-머 이렇게 한다고 해서, 모든 보안이나 익명성이 지켜지지 않겠지만 기본적으로 설정해 두는 것이 낫다.
+![image](https://user-images.githubusercontent.com/6334864/184565939-9fdffcbb-d2f1-44b4-a14d-ce5bdce11089.png)
 
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+머 이렇게 한다고 해서, 모든 보안이나 익명성이 지켜지지 않겠지만 기본적으로 설정해 두는 것이 낫다.
 
 ## 3\. 토렌트 다운로드 가이드 - qBittorrent, 주주토렌트
 
@@ -64,13 +66,13 @@ last_modified_at: 2022-08-14 00:00:00 +0900
 
 > [토렌트 사이트 추천 순위 및 URL 공유합니다 (https://ts.devbj.com/371)](https://ts.devbj.com/371)
 
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% include tsaddiv.html %}
 
 이 중에서 나는 주주토렌트 사이트로 (토렌트리 계열 사이트)로 들어가 본다.
 
 위와 같이 사이트에 접속하면 인기영화 화면이 나열되어 있다. 여기서 토렌트 다운로드를 원하는 영화를 클릭해 본다. 그럼 다음과 같은 창이 나타난다.
 
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% include tsaddiv.html %}
 
 위의 .torrent file 을 다운로드 한 다음, 컴퓨터에서 파일을 더블 클릭해도 되지만 가장 쉽게는 magnet link를 클릭하면 된다.
 
@@ -80,7 +82,7 @@ last_modified_at: 2022-08-14 00:00:00 +0900
 
 그럼 파일 이름을 확인하고, 그냥 확인 버튼만 누르면 바로 다운로드가 시작된다.
 
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% include tsaddiv.html %}
 
 이제 토렌트 다운로드가 시작된다. 아래와 같이 진행율을 확인하면 된다. 진행율이 올라가지 않으면 그냥 포기하고 파일을 삭제하도록 한다. 오래된 토렌트 파일의 경우 다운로드가 불가능한 경우도 있다.
 
